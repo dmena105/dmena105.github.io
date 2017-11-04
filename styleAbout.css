@@ -60,6 +60,7 @@ p{
 }
 
 #footer{
+    /* makes sure to be clear of all floating*/ 
     clear: both;
     text-align: center;
 }
