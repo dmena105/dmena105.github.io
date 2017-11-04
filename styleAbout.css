@@ -1,0 +1,65 @@
+/* CSS file for about_me.html
+ David Mena
+ Novmeber 2017
+ DALI LAB App.*/
+
+body {
+    background: repeating-linear-gradient(
+    45deg,
+    #F1A9A0,
+    #F1A9A0 10px,
+    #E08283 10px,
+    #E08283 20px
+    );
+    font-family: Century;
+}
+
+/* Changing the font size for all elements */
+h1{
+    font-size: 250%;
+}
+
+h2{
+    font-size: 200%;
+}
+
+p{
+    font-size: 120%;
+}
+
+#header{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#container{
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#nav{
+    background-color: #DADFE1;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#content{
+    width: 425px;
+    margin-left: inherit;
+    text-align: left;
+    float: right;
+}
+
+#image{
+    float: right;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+}
